@@ -1,0 +1,59 @@
+                            body{
+                                font-family: "kalpurush",Arial,sans-serif;
+                                font-size: 13px !important;
+                                line-height: 1.2;
+                                color: #333;
+                                background-color: #fff;
+                            }
+                            .dotted_botton{
+                                border:none;
+                                border-bottom:1px dotted #000;
+                                background-color:#fff;
+                            }
+                            .border_none{
+                                border-top: none !important;
+                            }
+                            .table-bordered {
+                                border: 1px solid #ddd;
+                            }
+                            .qrcode-print{
+                               width:100%;
+                               display: list-item;
+                               list-style-image: url();
+                               list-style-position: inside;
+                               background-repeat: no-repeat;
+                            }
+                            .b1 {border: 1px dotted; padding: 2px;}
+                            .text-left{text-align:left}
+                            .text-right{text-align:right}
+                            .text-center{text-align:center}
+                        
+                            @page {
+                                size:  a4;   /* auto is the initial value */
+                                margin: 0mm;  /* this affects the margin in the printer settings */
+                            }
+                            html{
+                                background-color: #FFFFFF; 
+                                margin: 0px;  /* this affects the margin on the html before sending to printer */
+                            }
+                            body{
+                                border: solid 0px blue ;
+                                margin: 0mm; /* margin you want for the content */
+                            }
+                            .dotted_botton{
+                                font-family: boishakhi !important;
+                                 font-size: 90%;
+
+                            }
+                            .input_bangla{
+                                font-family: boishakhi !important;
+                                font-size: 90%;
+                            }
+
+                            .numeric_bangla{
+                                font-family: boishakhi !important;
+                                font-size: 80%;
+                            }
+                            
+
+                       
